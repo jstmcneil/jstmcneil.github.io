@@ -2820,8 +2820,9 @@ blockquote {
 }
 
 .title-block img {
-  align-items: center;
-  text-align: center;
+  width: 60%;
+  margin: auto;
+  display: block;
 }
 
 .title-block .sp-subtitle {
