@@ -2933,7 +2933,7 @@ blockquote {
   }
 
   .title-block img {
-    margin:  auto;
+    display:  relative;
     text-align: center;
   }
 
