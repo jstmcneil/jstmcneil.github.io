@@ -2819,6 +2819,11 @@ blockquote {
   text-align: center;
 }
 
+.title-block img {
+  align-items: center;
+  text-align: center;
+}
+
 .title-block .sp-subtitle {
   color: #aaa;
   font-size: 21px;
@@ -2845,9 +2850,8 @@ blockquote {
 }
 
 .no-pad {
-  padding-bottom: 0;
-  padding-top: 0;
-}
+  display: block;
+ }
 
 .fun-fact {
   position: relative;
@@ -2929,11 +2933,6 @@ blockquote {
     font-size: 48px;
     line-height: 56px;
     margin: 0 0 10px;
-    text-align: center;
-  }
-
-  .title-block img {
-    display:  relative;
     text-align: center;
   }
 
