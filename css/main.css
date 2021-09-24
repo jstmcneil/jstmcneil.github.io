@@ -2844,6 +2844,11 @@ blockquote {
   background: rgba(10,10,10,0.45);
 }
 
+.no-pad {
+  padding-bottom: 0;
+  padding-top: 0;
+}
+
 .fun-fact {
   position: relative;
   text-align: center;
@@ -2875,6 +2880,7 @@ blockquote {
   -o-box-shadow: 0 12px 17px rgba(0, 0, 0, 0.12);
   box-shadow: 0 12px 17px rgba(0, 0, 0, 0.12);
 }
+
 
 .fun-fact.gray-bg {
   background-color: #fcfcfc;
