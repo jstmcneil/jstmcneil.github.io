@@ -2932,6 +2932,10 @@ blockquote {
     text-align: center;
   }
 
+  .title-block img {
+    align-items: center;
+  }
+
   .title-block .sp-subtitle {
     font-size: 18px;
   }
