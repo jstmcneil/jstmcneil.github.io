@@ -2933,7 +2933,7 @@ blockquote {
   }
 
   .title-block img {
-    align-items: center;
+    text-align: center;
   }
 
   .title-block .sp-subtitle {
