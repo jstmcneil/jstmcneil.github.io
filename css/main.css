@@ -554,6 +554,7 @@ input[type="submit"]:focus {
 .section-content {
   background-color: #222;
   padding: 60px;
+  padding-top: 20px;
   position: relative;
   height: auto;
   width: 100%;
