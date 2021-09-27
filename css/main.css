@@ -2832,7 +2832,7 @@ blockquote {
 
 .abouts {
   text-align: justify;
-  text-justify: inter-word;
+  text-justify: inter-character;
 }
 
 .title-block .sp-subtitle {
