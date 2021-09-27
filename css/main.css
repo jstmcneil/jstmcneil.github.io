@@ -2830,6 +2830,11 @@ blockquote {
   margin-bottom: 20px;
 }
 
+.abouts {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .title-block .sp-subtitle {
   color: #aaa;
   font-size: 21px;
