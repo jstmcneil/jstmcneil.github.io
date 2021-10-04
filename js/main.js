@@ -75,7 +75,6 @@
                 $.ajax({
                     type: "POST",
                     url: url,
-                    headers: {'Access-Control-Allow-Origin': 'https://formspree.io/thanks?language=en'},
                     data: $(this).serialize(),
                     success: function (data)
                     {
@@ -309,7 +308,7 @@
             zoom: 16 // Google Map ZOOM. You can change this value
         });
         $("#map").addMarker({
-            address: "Fairfield, Connecticut, USA", // Your Address. Change it
+            address: "Connecticut, USA", // Your Address. Change it
         });
     });
 
