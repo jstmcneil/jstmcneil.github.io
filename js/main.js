@@ -308,7 +308,7 @@
             zoom: 6 // Google Map ZOOM. You can change this value
         });
         $("#map").addMarker({
-            address: "CT, USA", // Your Address. Change it
+            address: "Fairfield CT, USA", // Your Address. Change it
         });
     });
 
