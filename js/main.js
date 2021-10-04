@@ -305,10 +305,10 @@
 
         //Google Maps
         $("#map").googleMap({
-            zoom: 1 // Google Map ZOOM. You can change this value
+            zoom: 5 // Google Map ZOOM. You can change this value
         });
         $("#map").addMarker({
-            address: "USA", // Your Address. Change it
+            address: "CT, USA", // Your Address. Change it
         });
     });
 
