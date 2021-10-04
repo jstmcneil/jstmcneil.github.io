@@ -305,7 +305,7 @@
 
         //Google Maps
         $("#map").googleMap({
-            zoom: 5 // Google Map ZOOM. You can change this value
+            zoom: 8 // Google Map ZOOM. You can change this value
         });
         $("#map").addMarker({
             address: "CT, USA", // Your Address. Change it
