@@ -66,7 +66,6 @@
 
     // Contact form validator
     $(function () {
-
         $('#contact_form').validator();
 
         $('#contact_form').on('submit', function (e) {
@@ -76,6 +75,7 @@
                 $.ajax({
                     type: "POST",
                     url: url,
+                    headers: {'Access-Control-Allow-Origin': 'https://formspree.io/thanks?language=en'},
                     data: $(this).serialize(),
                     success: function (data)
                     {
