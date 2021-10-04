@@ -308,7 +308,7 @@
             zoom: 16 // Google Map ZOOM. You can change this value
         });
         $("#map").addMarker({
-            address: "Connecticut, USA", // Your Address. Change it
+            address: "USA", // Your Address. Change it
         });
     });
 
