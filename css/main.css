@@ -1383,6 +1383,12 @@ textarea.form-control, textarea.form-control:focus {
 
 /* --- End of Skills --- */
 
+/* --- Link Format --- */
+.specific-links {
+  color: #f58545;
+  text-decoration: underline;
+}
+
 /* --- Knowledges --- */
 .knowledges {
   list-style: none;
@@ -1419,7 +1425,7 @@ textarea.form-control, textarea.form-control:focus {
   display: table-cell;
   width: 120px;
   height: 100%;
-  background-color: #444;
+  background-color: #FFFFFF;
   padding: 25px;
   vertical-align: middle;
   border-top-left-radius: 6px;
@@ -2828,11 +2834,6 @@ blockquote {
 .hats {
   padding-bottom: 20px;
   margin-bottom: 20px;
-}
-
-.abouts {
-  text-align: justify;
-  text-justify: inter-character;
 }
 
 .title-block .sp-subtitle {
